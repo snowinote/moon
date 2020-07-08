@@ -1,0 +1,2 @@
+// For license information, see `https://assets.adobedtm.com/5ef092d1efb5/f9eecf3007e8/d870ec3fb7d0/RC81fa758401cb4e7fb124980ba324e79e-source.js`.
+_satellite.__registerScript('https://assets.adobedtm.com/5ef092d1efb5/f9eecf3007e8/d870ec3fb7d0/RC81fa758401cb4e7fb124980ba324e79e-source.min.js', "null!=window.wdgtagging&&function(i){i.insertScript(\"//www.microsoft.com/library/svy/minecraft/broker.js\")}(window.wdgtagging.util,window.jQuery);");

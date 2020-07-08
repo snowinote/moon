@@ -1,0 +1,2 @@
+// For license information, see `https://assets.adobedtm.com/5ef092d1efb5/f9eecf3007e8/d870ec3fb7d0/RC45cbd24c24b84b19b698467876f75fcc-source.js`.
+_satellite.__registerScript('https://assets.adobedtm.com/5ef092d1efb5/f9eecf3007e8/d870ec3fb7d0/RC45cbd24c24b84b19b698467876f75fcc-source.min.js', "null!=window.wdgtagging&&function(g,n){g.isLoggedIn=!1,null!=n.readCookie(\"session_username\")&&(n.setMetaTag(\"awa-authtype\",\"Mojang\"),g.isLoggedIn=!0)}(window,window.wdgtagging.util);");
