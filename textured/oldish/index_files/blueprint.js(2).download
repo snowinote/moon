@@ -1,0 +1,310 @@
+window.blueprint = {
+	"width": 300,
+	"height": 600,
+	"images": [
+		"txt_1.png",
+		"txt_2.png",
+		"txt_3.png",
+		"cta_1.png",
+		"ctaHover_1.png",
+		"icon1.png",
+		"time1.png",
+		"time2.png",
+		"icon2.png",
+		"logo_vimeo.png"
+	],
+	"elements": {
+		"stage": {
+			"parent": "banner",
+			"id": "stage",
+			"retina": false,
+			"left": 0,
+			"top": 0,
+			"safeArea": 0,
+			"lineHeight": 0,
+			"width": 300,
+			"height": 600
+		},
+		"bg": {
+			"parent": "banner",
+			"id": "bg",
+			"retina": false,
+			"left": 0,
+			"top": 0,
+			"safeArea": 0,
+			"lineHeight": 0,
+			"width": 300,
+			"height": 600
+		},
+		"txt_1": {
+			"parent": "banner",
+			"id": "txt_1",
+			"retina": true,
+			"left": -13,
+			"top": 78,
+			"safeArea": 45,
+			"lineHeight": 42.120000000000005,
+			"backgroundImage": "txt_1.png",
+			"width": 320,
+			"height": 292
+		},
+		"txt_2": {
+			"parent": "banner",
+			"id": "txt_2",
+			"retina": true,
+			"left": -13,
+			"top": 77.8,
+			"safeArea": 45,
+			"lineHeight": 48.150000000000006,
+			"backgroundImage": "txt_2.png",
+			"width": 256,
+			"height": 176
+		},
+		"txt_3": {
+			"parent": "banner",
+			"id": "txt_3",
+			"retina": true,
+			"left": 7,
+			"top": 199,
+			"safeArea": 25,
+			"lineHeight": 26,
+			"backgroundImage": "txt_3.png",
+			"width": 246,
+			"height": 71
+		},
+		"cta": {
+			"parent": "banner",
+			"id": "cta",
+			"retina": true,
+			"left": 32,
+			"top": 369.25,
+			"safeArea": 0,
+			"lineHeight": 15.600000000000001
+		},
+		"cta_1": {
+			"parent": "cta",
+			"id": "cta_1",
+			"retina": true,
+			"backgroundImage": "cta_1.png"
+		},
+		"ctaHover": {
+			"parent": "banner",
+			"id": "ctaHover",
+			"retina": true,
+			"left": 163,
+			"top": 377.25,
+			"safeArea": 0,
+			"lineHeight": 15.600000000000001
+		},
+		"ctaHover_1": {
+			"parent": "ctaHover",
+			"id": "ctaHover_1",
+			"retina": true,
+			"backgroundImage": "ctaHover_1.png"
+		},
+		"progressBase": {
+			"parent": "banner",
+			"id": "progressBase",
+			"retina": false,
+			"left": 0,
+			"top": 507,
+			"safeArea": 0,
+			"lineHeight": 0,
+			"width": 300,
+			"height": 15
+		},
+		"progress": {
+			"parent": "banner",
+			"id": "progress",
+			"retina": false,
+			"left": 0,
+			"top": 509,
+			"safeArea": 0,
+			"lineHeight": 0,
+			"width": 102,
+			"height": 11
+		},
+		"mark3": {
+			"parent": "banner",
+			"id": "mark3",
+			"retina": false,
+			"left": 250,
+			"top": 508,
+			"safeArea": 0,
+			"lineHeight": 0,
+			"width": 2,
+			"height": 13
+		},
+		"mark2": {
+			"parent": "banner",
+			"id": "mark2",
+			"retina": false,
+			"left": 205,
+			"top": 508,
+			"safeArea": 0,
+			"lineHeight": 0,
+			"width": 2,
+			"height": 13
+		},
+		"mark1": {
+			"parent": "banner",
+			"id": "mark1",
+			"retina": false,
+			"left": 55,
+			"top": 508,
+			"safeArea": 0,
+			"lineHeight": 0,
+			"width": 2,
+			"height": 13
+		},
+		"box1": {
+			"parent": "banner",
+			"id": "box1",
+			"retina": false,
+			"left": 181,
+			"top": 435,
+			"safeArea": 0,
+			"lineHeight": 0,
+			"width": 111,
+			"height": 50
+		},
+		"icon1": {
+			"parent": "banner",
+			"id": "icon1",
+			"retina": true,
+			"left": 240,
+			"top": 448,
+			"safeArea": 0,
+			"lineHeight": 0,
+			"backgroundImage": "icon1.png",
+			"width": 32,
+			"height": 24
+		},
+		"time1": {
+			"parent": "banner",
+			"id": "time1",
+			"retina": true,
+			"left": 193,
+			"top": 454,
+			"safeArea": 0,
+			"lineHeight": 0,
+			"backgroundImage": "time1.png",
+			"width": 38,
+			"height": 12
+		},
+		"box2": {
+			"parent": "banner",
+			"id": "box2",
+			"retina": false,
+			"left": 104,
+			"top": 229,
+			"safeArea": 0,
+			"lineHeight": 0,
+			"width": 111,
+			"height": 50
+		},
+		"time2": {
+			"parent": "banner",
+			"id": "time2",
+			"retina": true,
+			"left": 116,
+			"top": 248,
+			"safeArea": 0,
+			"lineHeight": 0,
+			"backgroundImage": "time2.png",
+			"width": 38,
+			"height": 12
+		},
+		"icon2": {
+			"parent": "banner",
+			"id": "icon2",
+			"retina": true,
+			"left": 167,
+			"top": 237,
+			"safeArea": 0,
+			"lineHeight": 0,
+			"backgroundImage": "icon2.png",
+			"width": 28,
+			"height": 28
+		},
+		"logo_vimeo": {
+			"parent": "banner",
+			"id": "logo_vimeo",
+			"retina": true,
+			"left": 32,
+			"top": 50,
+			"safeArea": 0,
+			"lineHeight": 0,
+			"backgroundImage": "logo_vimeo.png",
+			"width": 103,
+			"height": 30
+		},
+		"top": {
+			"parent": "banner",
+			"id": "top",
+			"retina": false,
+			"left": 0,
+			"top": -10,
+			"safeArea": 0,
+			"lineHeight": 0,
+			"width": 300,
+			"height": 10
+		},
+		"bottom": {
+			"parent": "banner",
+			"id": "bottom",
+			"retina": false,
+			"left": 0,
+			"top": 600,
+			"safeArea": 0,
+			"lineHeight": 0,
+			"width": 300,
+			"height": 10
+		},
+		"left": {
+			"parent": "banner",
+			"id": "left",
+			"retina": false,
+			"left": -10,
+			"top": 0,
+			"safeArea": 0,
+			"lineHeight": 0,
+			"width": 10,
+			"height": 600
+		},
+		"right": {
+			"parent": "banner",
+			"id": "right",
+			"retina": false,
+			"left": 300,
+			"top": 0,
+			"safeArea": 0,
+			"lineHeight": 0,
+			"width": 10,
+			"height": 600
+		}
+	},
+	"settings": {
+		"filename": "Q3-2019_EN_mid-funnel_marketer_video-review_2_learn-more_300x600_HTML5",
+		"market": "EN",
+		"campaign": "Q3-2019",
+		"funnel": "mid-funnel",
+		"segment": "marketer",
+		"feature": "video-review",
+		"copyVariation": "2",
+		"size": "300x600",
+		"marketIndex": "1",
+		"id": "marketervideo-review2",
+		"copy": {
+			"copy1": "Don't spend hours leaving feedback on a :30 video.",
+			"copy2": "Video Review.",
+			"copy3": "A Vimeo Feature",
+			"copy4": "Learn More",
+			"copy5": ""
+		},
+		"fileType": "jpg",
+		"fallback": true,
+		"HtmlfileType": "html",
+		"backgroundColor": "#93ce92"
+	}
+};
